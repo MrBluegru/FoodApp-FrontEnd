@@ -1,0 +1,22 @@
+.page-item {
+  display: flex;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 4px 2px;
+  font-family: fantasy;
+}
+
+.current {
+  background-color: #4a0d7b;
+  color: rgb(244, 244, 244);
+  border-radius: 5px;
+  margin: 4px 2px;
+  font-family: fantasy;
+}
+
+.nex-previous {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+

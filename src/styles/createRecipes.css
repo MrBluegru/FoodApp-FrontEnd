@@ -1,0 +1,154 @@
+.createR {
+  min-height: 979px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #2b2b2b41 0%, #0000005f 0%),
+    url("../img/mk4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo {
+  display: flex;
+}
+
+.volver {
+  margin-top: 4rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.nameF {
+  display: grid;
+  grid-area: nameArea;
+  height: 5rem;
+  width: 14rem;
+}
+.imagenF {
+  display: grid;
+  grid-area: imagenArea;
+  height: 5rem;
+  width: 14rem;
+}
+.summaryF {
+  display: grid;
+  grid-area: summaryArea;
+  height: 10rem;
+  width: 14rem;
+}
+.stepBSF {
+  display: grid;
+  grid-area: stepArea;
+  height: 10rem;
+  width: 14rem;
+}
+.dishTF {
+  grid-area: dishTArea;
+  height: 5rem;
+}
+.dietsF {
+  grid-area: dietsArea;
+  height: 5rem;
+}
+.healthSF {
+  grid-area: healthArea;
+  height: 1rem;
+}
+.buttons {
+  grid-area: buttonsArea;
+  height: 5rem;
+}
+.create_form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "nameArea imagenArea"
+    "summaryArea stepArea"
+    "dishTArea dietsArea"
+    "healthArea healthArea"
+    "buttonsArea buttonsArea";
+  grid-template-rows: 8.5rem 8.5rem 6.5rem 4.5rem 4.5rem;
+  align-items: center;
+  justify-items: center;
+  background-color: rgba(148, 117, 198, 0.503);
+  padding: 2rem;
+  border-radius: 5px;
+  color: #e2e3e7;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.homeLink {
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton_crear:disabled {
+  color: red;
+  background-color: black;
+  cursor: no-drop;
+}
+
+.name-img {
+  min-height: 35px;
+}
+.summ-step {
+  min-height: 25px;
+  height: 30px;
+}
+
+.threeColumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: "dishT fromm diets";
+}
+
+.formmm {
+  grid-area: fromm;
+}
+
+.diets-select {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  margin: 5rem;
+  background-color: rgba(148, 117, 198, 0.325);
+  border-radius: 5px;
+  padding: 2rem;
+  grid-area: diets;
+}
+.dishTSelect {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  margin: 5rem;
+  background-color: rgba(148, 117, 198, 0.503);
+  border-radius: 5px;
+  padding: 2rem;
+  grid-area: dishT;
+}
+
+.inputS {
+  border-radius: 5px;
+  background-color: rgb(186, 173, 208);
+}
+
+.selects {
+  background-color: rgb(186, 173, 208);
+
+}
